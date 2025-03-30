@@ -4,7 +4,7 @@ def calculator():
     print("2.Substraction")
     print("3.Multiplication")
     print("4.Division")
-    choice = int(input("Enter the choice (1-4: )"))
+    choice = int(input("Enter the choice (1-4 : )"))
     num1 = float(input("Enter the first number : "))
     num2 = float(input("Enter the Second number : "))
     if choice == 1:
