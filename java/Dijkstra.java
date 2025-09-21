@@ -38,7 +38,7 @@ class Dijkstra {
             }
         }
 
-        System.out.println("\nShortest distances from source " + source + ":");
+        System.out.println("\nShortest distances from source --- " + source + ":");
         for (int i = 0; i < V; i++) {
             System.out.println("To " + i + " -> " + (dist[i] == Integer.MAX_VALUE ? "∞" : dist[i]));
         }
